@@ -1,4 +1,4 @@
-# Node Alphine Gcloud- Docker Image
+# Node Alpine Gcloud- Docker Image
 
 Simple base image containing nodejs, git and gcloud sdk for ci usage
 

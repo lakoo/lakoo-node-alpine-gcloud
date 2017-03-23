@@ -16,3 +16,4 @@ RUN mkdir ${HOME}/.ssh
 ENV PATH /opt/google-cloud-sdk/bin:$PATH
 
 WORKDIR /root
+CMD bash
