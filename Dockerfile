@@ -4,7 +4,7 @@ MAINTAINER William Chong <williamchong@lakoo.com>
 RUN mkdir -p /opt
 WORKDIR /opt
 
-RUN apk add --no-cache bash git python
+RUN apk add --no-cache bash git openssh-client python
 
 ENV CLOUDSDK_PYTHON_SITEPACKAGES 1
 RUN wget http://dl.google.com/dl/cloudsdk/channels/rapid/google-cloud-sdk.zip && unzip google-cloud-sdk.zip && rm google-cloud-sdk.zip
