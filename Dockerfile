@@ -1,4 +1,4 @@
-FROM node:6-alpine
+FROM node:8-alpine
 MAINTAINER William Chong <williamchong@lakoo.com>
 
 RUN mkdir -p /opt
@@ -7,6 +7,7 @@ WORKDIR /opt
 RUN apk add --no-cache \
 	bash \
 	ca-certificates \
+	curl \
 	git \
 	openssh-client \
 	python \
