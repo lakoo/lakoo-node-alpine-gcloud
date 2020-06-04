@@ -1,4 +1,4 @@
-FROM node:8-alpine
+FROM node:10-alpine3.11
 MAINTAINER William Chong <williamchong@lakoo.com>
 
 RUN mkdir -p /opt
